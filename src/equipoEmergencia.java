@@ -1,0 +1,14 @@
+public abstract class equipoEmergencia {
+
+    private String nombre;
+
+    public equipoEmergencia(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void mostarNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public abstract void atenderEmergencia();
+}
