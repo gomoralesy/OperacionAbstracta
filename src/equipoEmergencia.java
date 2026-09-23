@@ -6,7 +6,7 @@ public abstract class equipoEmergencia {
         this.nombre = nombre;
     }
 
-    public void mostarNombre(String nombre) {
+    public void mostarNombre() {
         System.out.println("Nombre equipo: " + nombre);
     }
 

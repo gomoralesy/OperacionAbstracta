@@ -5,13 +5,13 @@ public class Main {
         BrigadaTecnica brigadaDos = new BrigadaTecnica("Brigada Dos");
         DronRescate dronUno = new DronRescate("Dron Uno");
 
-        brigadaUno.mostarNombre("Brigada Uno");
+        brigadaUno.mostarNombre();
         brigadaUno.atenderEmergencia();
 
-        brigadaDos.mostarNombre("Brigada Dos");
+        brigadaDos.mostarNombre();
         brigadaDos.atenderEmergencia();
 
-        dronUno.mostarNombre("Dron Uno");
+        dronUno.mostarNombre();
         dronUno.atenderEmergencia();
     }
 }
