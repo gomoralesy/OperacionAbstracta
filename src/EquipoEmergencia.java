@@ -1,8 +1,8 @@
-public abstract class equipoEmergencia {
+public abstract class EquipoEmergencia {
 
     private String nombre;
 
-    public equipoEmergencia(String nombre) {
+    public EquipoEmergencia(String nombre) {
         this.nombre = nombre;
     }
 

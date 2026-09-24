@@ -1,4 +1,4 @@
-public class BrigadaMedica extends equipoEmergencia{
+public class BrigadaMedica extends EquipoEmergencia {
     public BrigadaMedica(String nombre) {
         super(nombre);
     }
