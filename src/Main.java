@@ -1,16 +1,16 @@
 public class Main {
     public static void main(String[] args) {
 
-        equipoEmergencia brigadaUno = new BrigadaMedica("Brigada Uno");
-        equipoEmergencia brigadaDos = new BrigadaTecnica("Brigada Dos");
-        equipoEmergencia dronUno = new DronRescate("Dron Uno");
+        equipoEmergencia medicaUno = new BrigadaMedica("Brigada Medica");
+        equipoEmergencia tecnicaUno = new BrigadaTecnica("Brigada Tecnica");
+        equipoEmergencia dronUno = new DronRescate("Dron Vigilante");
 
-        brigadaUno.mostarNombre();
-        brigadaUno.atenderEmergencia();
-
-        brigadaDos.mostarNombre();
-        brigadaDos.atenderEmergencia();
-
+        medicaUno.mostarNombre();
+        medicaUno.atenderEmergencia();
+        System.out.println(" ");
+        tecnicaUno.mostarNombre();
+        tecnicaUno.atenderEmergencia();
+        System.out.println(" ");
         dronUno.mostarNombre();
         dronUno.atenderEmergencia();
     }
